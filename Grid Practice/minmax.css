@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, minmax(1fr, max-content));
+    gap: 30px 20px;
+    width: 720px;
+    margin: 70px 0 0 50px;
+    background: #0984e3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    /* grid-template-areas: "header header header"
+                         "menu menu menu"
+                         "box1 box2 sidebar"
+                         "content content sidebar"
+                         "footer footer footer"; */
+  }
+  .item1 {
+    background: #00cec9;
+  }
+  .item2 {
+    background: #a29bfe;
+  }
+  .item3 {
+    background: #fd79a8;
+  }
+  .item4 {
+    background: #ff7675;
+  }
+  .item5 {
+    background: #786fa6;
+  }
+  .item6 {
+    background: #e17055;
+  }
+  .item7 {
+    background: #cf6a87;
+  }
+  .item8 {
+  background: #ff9ff3;
+}
